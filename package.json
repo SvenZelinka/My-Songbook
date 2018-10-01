@@ -1,0 +1,20 @@
+{
+  "name": "my-songbook",
+  "version": "1.0.0",
+  "description": "bplist00�\u0001\u0002_\u0010\u000fWebMainResource�\u0003\u0004\u0005\u0006\u0007\b\t \u000b\f_\u0010\u000fWebResourceData_\u0010\u0013WebResourceMIMEType_\u0010\u001bWebResourceTextEncodingName^WebResourceURL_\u0010\u0014WebResourceFrameNameO\u0011\f�<html><head></head><body><pre style=\"word-wrap: break-word; white-space: pre-wrap;\">Beispielanwendung \"My Songbook\" ===============================",
+  "main": "index.js",
+  "scripts": {
+  "clean": "node scripts/clean.js",
+  "build": "npm run clean; parcel build src/*.html --public-url . --detailed-report --experimental-scope-hoisting",
+  "watch": "npm run clean; parcel watch src/*.html --public-url . --detailed-report --experimental-scope-hoisting",
+  "start": "parcel src/index.html --open"
+},
+
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "navigo": "^7.1.2",
+    "parcel-bundler": "^1.10.1",
+    "shelljs": "^0.8.2"
+  }
+}
